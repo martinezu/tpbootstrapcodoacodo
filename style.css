@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: x-large;
+    padding-left: 20%;
+}
+
+nav {
+    background-color: rgb(52, 58, 64);
+}
+
+#textonav {
+    color: white;
+    font-size: x-large;
+}
+
+#ticket1 {
+    color: green;
+    font-size: x-large;
+}
+
+
+#carrusel {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#header1 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+
+#header2 {
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 20%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    position: relative;
+    font-size: 160%;
+}
+
+#header2 h1 {
+    font-size: 180%;
+}
+
+#botones {
+    display: flex;
+    justify-content:flex-end;
+    width: 70%;
+}
+
+#quieroser {
+    border-color: white;
+    color: white;
+    height: 100%;
+    width: 40%;
+    padding-right: 1%;
+    padding-left: 1%;
+    display: inline-block;
+    font-size: 100%;
+}
+
+#quieroser:hover{
+    background-color: white;
+    color: black;
+    text-shadow: none;
+}
+
+#quieroser:active{
+    opacity: 0.8;
+}
+
+#ticket2 {
+    border-color: green;
+    color: white;
+    background-color: green;
+    height: 100%;
+    width: 40%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-style: solid;
+    border-radius: 10%;
+    display: inline-block;
+    font-size: 100%;
+    margin-left: 5%;
+}
+
+#ticket2:hover{
+    background-color: rgb(0, 82, 0);
+    border-color: rgb(0, 82, 0);
+}
+
+#ticket2:active{
+    opacity: 0.8;
+}
+
+.semititulo{
+    margin-top: 1.5%;
+    width: 100%;
+    text-align: center;
+}
+
+.semititulo h2{
+    font-size: 300%;
+}
+
+.semititulo p{
+    font-size: 100%;
+    margin-bottom: 0%;
+}
+
+#anota {
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+
+#oradores {
+    width: 80%;
+}
+
+#form {
+    width: 50%;
+}
+
+#sobreque {
+    font-size: 160%;
+}
+
+
+footer {
+    height: 120px;
+    background-color: rgb(29, 58, 72);
+    color: white;
+    font-size: 20px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer a {
+    width: 10%;
+}
+
+
+#octubre {
+    width: 100%;
+    height: 620px;
+    display: flex;
+    color: white;
+    justify-content:stretch;
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+
+#octubre img {
+    height: 100%;
+    width: 50%;
+    margin-right: 0.2%;
+}
+
+#octubre div {
+    width: 50%;
+    padding-left: 1%;
+    padding-top: 2%;
+    background-color: rgb(53, 58, 64);
+}
+
+#octubre h2 {
+    font-size: 300%;
+}
+
+#octubre p {
+    font-size: 160%;
+}
+
+#octubre button {
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5%;
+    background-color: transparent;
+    height: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 160%;
+}
+
+#octubre button:hover {
+    background-color: white;
+    color: black;
+}
+
+#octubre button:active {
+    opacity: 0.6;
+}
+
+#enviar {
+    color: white;
+    background-color: rgb(150, 201, 62);
+    border-radius: 5px;
+    width: 100%;
+    height: 6%;
+    border-style: none;
+    font-size: 25px;
+}
+
+#enviar:hover {
+    opacity: 0.8;
+}
+
+#enviar:active {
+    opacity: 0.6;
+}
